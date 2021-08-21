@@ -27,9 +27,9 @@ services:
     build: https://github.com/JulianWebb/Twilio2Discord-SMS.git#development
     container_name: t2dsms
     environment:
-		 - DISCORD_WEBHOOK: ''
-		 - EXPRESS_PORT: 00
-		 - TWILIO_URL: ''
-		 - TWILIO_AUTH_TOKEN: ''
+      - DISCORD_WEBHOOK: ''
+      - EXPRESS_PORT: 00
+      - TWILIO_URL: ''
+      - TWILIO_AUTH_TOKEN: ''
     restart: unless-stopped
 ```
