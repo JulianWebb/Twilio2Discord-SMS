@@ -1,6 +1,6 @@
 FROM node:16
 
-ENV NODE_ENV=production
+ENV NODE_ENVIRONMENT=production
 
 WORKDIR /app
 COPY ["package.json", "package-lock.json", "./"];
