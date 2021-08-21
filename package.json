@@ -14,10 +14,10 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@julianwebb/discord-logger": "^0.2.2",
     "dotenv": "^10.0.0"
   },
   "dependencies": {
+		"@julianwebb/discord-logger": "^0.2.2",
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "twilio": "^3.67.0",
